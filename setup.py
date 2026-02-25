@@ -29,4 +29,7 @@ setup(
     "imageio[ffmpeg]",
   ],
   python_requires='>=3.10',
+  package_data={
+        "general_motion_retargeting": ["assets/**/*"],
+    },
 )
